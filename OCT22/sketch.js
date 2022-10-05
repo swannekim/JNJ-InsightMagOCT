@@ -95,12 +95,14 @@ function draw() {
     fill(217, 88, 109);
     text("© flxblyy2022", 7, 1070);
 
+    /*
     // check current page
     textAlign(RIGHT, BOTTOM);
     textFont(ibmR);
     textSize(20);
     fill(135, 135, 135);
     text(pageNum, 1060, 1060);
+    */
   }
 
   if (pageNum == 1) {
@@ -190,7 +192,6 @@ function draw() {
     // button 4 text
     fill(225);
     text("Category 4", 220, 845);
-    */
 
     // check current page
     textAlign(RIGHT, BOTTOM);
@@ -198,6 +199,7 @@ function draw() {
     textSize(20);
     fill(135, 135, 135);
     text(pageNum, 1060, 1060);
+    */
   }
 
   if (pageNum == 2) {
@@ -205,12 +207,14 @@ function draw() {
     // Width and height are the img's original width and height
     image(img01, 0, 0);
 
+    /*
     // check current page
     textAlign(RIGHT, TOP);
     textFont(ibmR);
     textSize(20);
     fill(135, 135, 135);
     text(pageNum, 1060, 20);
+    */
   }
 
   if (pageNum == 3) {
@@ -218,12 +222,14 @@ function draw() {
     // Width and height are the img's original width and height
     image(img02, 0, 0);
 
+    /*
     // check current page
     textAlign(RIGHT, TOP);
     textFont(ibmR);
     textSize(20);
     fill(135, 135, 135);
     text(pageNum, 1060, 20);
+    */
   }
 
   if (pageNum == 4) {
@@ -231,12 +237,14 @@ function draw() {
     // Width and height are the img's original width and height
     image(img03, 0, 0);
 
+    /*
     // check current page
     textAlign(RIGHT, TOP);
     textFont(ibmR);
     textSize(20);
     fill(135, 135, 135);
     text(pageNum, 1060, 20);
+    */
   }
 
   if (pageNum == 5) {
@@ -244,12 +252,14 @@ function draw() {
     // Width and height are the img's original width and height
     image(img04, 0, 0);
 
+    /*
     // check current page
     textAlign(RIGHT, TOP);
     textFont(ibmR);
     textSize(20);
     fill(135, 135, 135);
     text(pageNum, 1060, 20);
+    */
   }
 
   if (pageNum == 6) {
@@ -257,12 +267,14 @@ function draw() {
     // Width and height are the img's original width and height
     image(img05, 0, 0);
 
+    /*
     // check current page
     textAlign(RIGHT, TOP);
     textFont(ibmR);
     textSize(20);
     fill(135, 135, 135);
     text(pageNum, 1060, 20);
+    */
   }
 
   if (pageNum == 7) {
@@ -270,12 +282,14 @@ function draw() {
     // Width and height are the img's original width and height
     image(img06, 0, 0);
 
+    /*
     // check current page
     textAlign(RIGHT, TOP);
     textFont(ibmR);
     textSize(20);
     fill(135, 135, 135);
     text(pageNum, 1060, 20);
+    */
   }
 
   if (pageNum == 8) {
@@ -283,12 +297,14 @@ function draw() {
     // Width and height are the img's original width and height
     image(img07, 0, 0);
 
+    /*
     // check current page
     textAlign(RIGHT, TOP);
     textFont(ibmR);
     textSize(20);
     fill(135, 135, 135);
     text(pageNum, 1060, 20);
+    */
   }
 
   if (pageNum == 9) {
@@ -296,12 +312,14 @@ function draw() {
     // Width and height are the img's original width and height
     image(img08, 0, 0);
 
+    /*
     // check current page
     textAlign(RIGHT, TOP);
     textFont(ibmR);
     textSize(20);
     fill(135, 135, 135);
     text(pageNum, 1060, 20);
+    */
   }
 
   if (pageNum == 10) {
@@ -309,12 +327,14 @@ function draw() {
     // Width and height are the img's original width and height
     image(img09, 0, 0);
 
+    /*
     // check current page
     textAlign(RIGHT, TOP);
     textFont(ibmR);
     textSize(20);
     fill(135, 135, 135);
     text(pageNum, 1060, 20);
+    */
   }
 
   if (pageNum == 11) {
@@ -322,12 +342,14 @@ function draw() {
     // Width and height are the img's original width and height
     image(img10, 0, 0);
 
+    /*
     // check current page
     textAlign(RIGHT, TOP);
     textFont(ibmR);
     textSize(20);
     fill(135, 135, 135);
     text(pageNum, 1060, 20);
+    */
   }
 
   // reference page
@@ -359,12 +381,14 @@ function draw() {
     fill(225);
     text("↗ SharePoint", width * 0.5, height * 0.39);
 
+    /*
     // check current page
     textAlign(RIGHT, TOP);
     textFont(ibmR);
     textSize(20);
     fill(135, 135, 135);
     text(pageNum, 1060, 20);
+    */
   }
 
   // end of page
@@ -434,6 +458,7 @@ function mousePressed() {
     // button3 to page10
     pageNum = 10;
   } else if (
+    // button to sharepoint
     pageNum == 12 &&
     300 < mouseX &&
     mouseX < 780 &&

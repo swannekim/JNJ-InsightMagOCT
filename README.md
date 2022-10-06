@@ -1,4 +1,4 @@
-# JNJ_Category_Insight_Magazine
+# JNJ Category Insight Magazine
 - **JNJ Consumer KR CE Intern Project**
 - p5.js
 - Folder Update every month from Oct 6, 2022

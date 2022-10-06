@@ -1,4 +1,7 @@
 # JNJ_Category_Insight_Magazine
-### Category Insight Magazine for JNJ Consumer Commercial Excellence Intern Project
-### made with p5.js
-##### YKim137@ITS.JNJ.com
+- **JNJ Consumer KR CE Intern Project**
+- p5.js
+- Folder Update every month from Oct 6, 2022
+---
+### [WARNING] DO NOT EDIT ANY CONTENT
+- contact: YKim137@ITS.JNJ.com

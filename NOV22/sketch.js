@@ -3,7 +3,6 @@
 
 // variables
 let pageNum = 0;
-let value = 0;
 
 function preload() {
   ibmR = loadFont("fonts/IBMPLEXSANS-REGULAR.TTF");
@@ -342,7 +341,7 @@ function draw() {
     fill(135, 135, 135);
     text(pageNum, 1060, 20);
   }
-*/
+  */
 
   // reference page
   if (pageNum == 10) {
